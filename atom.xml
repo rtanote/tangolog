@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://rtanote.github.io/tangolog/atom.xml" rel="self"/>
+  <link href="http://rtanote.github.io/tangolog/"/>
+  <updated>2015-08-15T01:12:03+09:00</updated>
+  <id>http://rtanote.github.io/tangolog/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
