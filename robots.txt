@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /
 
-Sitemap: http://rtanote.github.io/tangolog/sitemap.xml 
+Sitemap: http://tangolog.bakedware.jp/sitemap.xml 

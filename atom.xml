@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://rtanote.github.io/tangolog/atom.xml" rel="self"/>
-  <link href="http://rtanote.github.io/tangolog/"/>
-  <updated>2015-08-15T01:26:48+09:00</updated>
-  <id>http://rtanote.github.io/tangolog/</id>
+  <title><![CDATA[たんごログ]]></title>
+  <link href="http://tangolog.bakedware.jp/atom.xml" rel="self"/>
+  <link href="http://tangolog.bakedware.jp/"/>
+  <updated>2015-08-18T09:59:51+09:00</updated>
+  <id>http://tangolog.bakedware.jp/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[bakedWare, Inc.]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[instructions]]></title>
+    <link href="http://tangolog.bakedware.jp/blog/2015/08/15/instructions/"/>
+    <updated>2015-08-15T07:56:24+09:00</updated>
+    <id>http://tangolog.bakedware.jp/blog/2015/08/15/instructions</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[tangolog]]></title>
+    <link href="http://tangolog.bakedware.jp/blog/2015/08/15/tangolog/"/>
+    <updated>2015-08-15T07:55:54+09:00</updated>
+    <id>http://tangolog.bakedware.jp/blog/2015/08/15/tangolog</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
