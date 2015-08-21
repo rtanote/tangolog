@@ -7,7 +7,7 @@
 	<meta name="author" content="bakedWare, Inc.">
 
 	
-	<meta name="description" content=" ">
+	<meta name="description" content=" Blog Archives ">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -20,20 +20,42 @@
 	
 </head>
 
-
 <body>
-	<header id="header" class="inner"><h1><div class="tangolog-logo"></div><!--<a href="/">たんごログ</a>--></h1>
+<div id="fb-root" class="fb_reset"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '934952259885345',
+			xfbml      : true,
+			version    : 'v2.4'
+		});
+	};
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<header id="header" class="inner"><h1><a href="/"><div class="tangolog-logo"></div></a></h1>
 <nav id="main-nav"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/faq">FAQ</a></li>
+	<li><a href="/terms">Terms</a></li>
+	<li><a href="/acknowledgements">Acknowledgements</a></li>
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/about">About</a></li>
 </ul>
 </nav>
 <nav id="mobile-nav">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
 		<div class="container"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/faq">FAQ</a></li>
+	<li><a href="/terms">Terms</a></li>
+	<li><a href="/acknowledgements">Acknowledgements</a></li>
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/about">About</a></li>
 </ul>
 </div>
 	</div>
@@ -70,42 +92,54 @@
 </nav>
 
 </header>
-	
-		
-	
-	<div id="content" class="inner">
+
+
+
+<div id="content" class="inner">
 
 <nav id="pagenavi">
     
     
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav>
 </div>
-	<footer id="footer" class="inner">Copyright &copy; 2015
+<footer id="footer" class="inner">Copyright &copy; 2015
 
     bakedWare, Inc.
 
 </footer>
-	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/holder.min.js"></script>
 
 
+<script type="text/javascript">
+      var disqus_shortname = 'tangolog-flashcards';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//go.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-66519140-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
 
 
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 

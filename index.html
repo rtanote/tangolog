@@ -21,20 +21,42 @@
 	
 </head>
 
-
 <body>
-	<header id="header" class="inner"><h1><div class="tangolog-logo"></div><!--<a href="/">たんごログ</a>--></h1>
+<div id="fb-root" class="fb_reset"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '934952259885345',
+			xfbml      : true,
+			version    : 'v2.4'
+		});
+	};
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+<header id="header" class="inner"><h1><a href="/"><div class="tangolog-logo"></div></a></h1>
 <nav id="main-nav"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/faq">FAQ</a></li>
+	<li><a href="/terms">Terms</a></li>
+	<li><a href="/acknowledgements">Acknowledgements</a></li>
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/about">About</a></li>
 </ul>
 </nav>
 <nav id="mobile-nav">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
 		<div class="container"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/faq">FAQ</a></li>
+	<li><a href="/terms">Terms</a></li>
+	<li><a href="/acknowledgements">Acknowledgements</a></li>
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/about">About</a></li>
 </ul>
 </div>
 	</div>
@@ -71,10 +93,10 @@
 </nav>
 
 </header>
-	
-		
-	
-	<div id="content" class="inner"><article class="page">
+
+
+
+<div id="content" class="inner"><article class="page">
     
     <h1 class="title"></h1>
     
@@ -89,16 +111,16 @@
 <p>たんごログ（単語ログ）は英語サイト閲覧時に、わからない単語の意味をサクサクと調べたり記録できる<strong>Chrome拡張機能</strong>（<strong>無料</strong>）です。記録した各単語は単語帳としてまとめられ、時間のある時に見た目も楽しく学習できるようになっています。
 具体的には、辞書・単語帳共にブラウザ内に保存されていますので一般に反応がすばやく、また単語帳は登録時に前後の文脈を保存するほか、
 単語をキーワードとした画像・テキストの検索結果が連動して表示されますので、その単語を「どこで調べたか？」をはじめとして、その単語が「イメージ的にどんなものか？」「日常的にはどんな感じに使うのか？」がリアルタイムにわかり、
-たいへん興味関心を持って楽しんで学習できる事が大きな特徴です。また、<strong>ログイン不要</strong>なため気軽に利用できます（そのかわり複数のコンピュータで使いたい時や共有などSNS的に使いたい時は不便です）。</p>
+たいへん興味関心を持って楽しんで学習できる事が大きな特徴です。また、<strong>ログイン不要</strong>なため気軽に利用できます。（そのかわり複数のコンピュータで使いたい時や共有などSNS的に使いたい時は今のところ不向きです）</p>
 
 <h2>インストール方法</h2>
 
 <ul>
-<li>Chromeウェブストア <a href="https://chrome.google.com/webstore/">たんごログ ページ</a>にアクセスし、(※現在準備中ですので未公開です)右上の <strong>「CHROME に追加」</strong> ボタンをクリックします。</li>
+<li>Chromeウェブストア <a href="https://chrome.google.com/webstore/detail/%E3%81%9F%E3%82%93%E3%81%94%E3%83%AD%E3%82%B0/cppaobgnffcgbmlpigglgcncomppjibd?hl=ja">たんごログ ページ</a>にアクセスし、右上の <strong>「CHROME に追加」</strong> ボタンをクリックします。</li>
 </ul>
 
 
-<p><a href="https://gyazo.com/09de2adb47208c43c19c26aef73b7828"><img src="https://i.gyazo.com/09de2adb47208c43c19c26aef73b7828.png" alt="Gyazo" /></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/%E3%81%9F%E3%82%93%E3%81%94%E3%83%AD%E3%82%B0/cppaobgnffcgbmlpigglgcncomppjibd?hl=ja"><img src="https://i.gyazo.com/7e90440763ea6eb1eee7f6843b03bb8d.png" alt="たんごログ" /></a></p>
 
 <ul>
 <li>たんごログのアイコンが追加されます。</li>
@@ -107,7 +129,7 @@
 
 <p><a href="https://gyazo.com/754723365e0b0b6090141ca0f6879479"><img src="https://i.gyazo.com/754723365e0b0b6090141ca0f6879479.png" alt="Gyazo" /></a></p>
 
-<p>インストールは以上です。</p>
+<p>インストールは以上です。なお初回起動は辞書の構築のために数秒〜数十秒程度費やします。その間はたんごログの機能は使えません。</p>
 
 <h2>使い方</h2>
 
@@ -138,10 +160,10 @@
 </ul>
 
 
-<p><a href="https://gyazo.com/c3fd9861dc31cef3d24909473e2d1978"><img src="https://i.gyazo.com/c3fd9861dc31cef3d24909473e2d1978.png" alt="Gyazo" /></a></p>
+<p><a href="https://gyazo.com/70667022fe3b4e9587375e50177b23a9"><img src="https://i.gyazo.com/70667022fe3b4e9587375e50177b23a9.png" alt="Gyazo" /></a></p>
 
-<p>単語一覧より単語をクリックすると、その単語をキーワードとして検索された、商品（予定）、画像、ツイートが表示されます。
-（なお、画像検索はFlickr API、ツイート検索はTwitter Rest APIを使用して実現していますが、本拡張機能が各社によって推奨または認定されているわけではありません。）</p>
+<p>単語一覧より単語をクリックすると、その単語をキーワードとして検索された、商品、画像、ツイートが表示されます。
+（なお、商品検索はAmazon Product Advertising API、画像検索はFlickr API、ツイート検索はTwitter Rest APIを使用していますが、本拡張機能が各社によって推奨または認定されているわけではありません。）</p>
 
 <p>主な機能は以上となります。</p>
 
@@ -165,70 +187,113 @@
 
 <p>これ以外の細かい仕様については別途FAQページで告知します。</p>
 
-<p>Chrome ウェブストア - <a href="https://chrome.google.com/webstore/">たんごログ</a></p>
+<p>Chrome ウェブストア - <a href="https://chrome.google.com/webstore/detail/%E3%81%9F%E3%82%93%E3%81%94%E3%83%AD%E3%82%B0/cppaobgnffcgbmlpigglgcncomppjibd?hl=ja">たんごログ</a></p>
 
-<hr />
+<h2>履歴</h2>
 
-<h2>What&rsquo;s new</h2>
+<ul>
+<li>2015.8.19 公開しました。</li>
+<li>2015.8.17 限定公開を行いました。</li>
+</ul>
 
-<p>現在、公開準備中です。</p>
 
-<h2>Instructions</h2>
-
-<p>Chrome ウェブストアよりインストールできます（無料）
-<a href="https://chrome.google.com/webstore/">https://chrome.google.com/webstore/</a></p>
-
-<h2>Documentations</h2>
+<h2>ドキュメント</h2>
 
 <p>準備中です。</p>
 
-<h2>Contacts</h2>
+<h2>サポート</h2>
 
-<p>準備中です。</p>
+<p>不具合やご要望などがありましたらこのサイト内のコメントサービス(DISQUS)か、
+もしくはTwitterアカウント <a href="https://twitter.com/TangologApp">@TangologApp</a> へお問い合わせください。</p>
 </div>
 </article>
 
-	<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
+	<!-- sharing.html -->
+
+
+<div class="share">
+	<div class="bw-hatena">
+		<a href="http://b.hatena.ne.jp/entry/http://tangolog.bakedware.jp/" class="hatena-bookmark-button" data-hatena-bookmark-title="たんごログ" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+	</div>
+	<div class="bw-twitter">
 		
-		
-		<a class="addthis_button_tweet"></a>
-		
-		
+		<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		
 	</div>
-	
+	<div class="bw-pocket">
+		<a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+		<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+	</div>
+	<div class="bw-line">
+		<span>
+			<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+			<script type="text/javascript">
+				new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});
+			</script>
+		</span>
+	</div>
+	<div class="bw-facebook">
+		
+		<div
+				class="fb-like"
+				data-share="true"
+				data-width="450"
+				data-show-faces="true">
+		</div>
+		
+	</div>
 </div>
 
 
 
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-	<footer id="footer" class="inner">Copyright &copy; 2015
+</section>
+
+</div>
+<footer id="footer" class="inner">Copyright &copy; 2015
 
     bakedWare, Inc.
 
 </footer>
-	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/holder.min.js"></script>
 
 
+<script type="text/javascript">
+      var disqus_shortname = 'tangolog-flashcards';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tangolog.bakedware.jp/index.html';
+        var disqus_url = 'http://tangolog.bakedware.jp/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//go.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-66519140-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
 
 
 
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
