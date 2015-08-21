@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /
-
-Sitemap: http://tangolog.bakedware.jp/sitemap.xml 
+Sitemap: http://tangolog.bakedware.jp/sitemap.xml
