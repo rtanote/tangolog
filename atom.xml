@@ -4,7 +4,7 @@
   <title><![CDATA[たんごログ]]></title>
   <link href="http://tangolog.bakedware.jp/atom.xml" rel="self"/>
   <link href="http://tangolog.bakedware.jp/"/>
-  <updated>2015-08-24T18:59:34+09:00</updated>
+  <updated>2015-08-25T22:07:20+09:00</updated>
   <id>http://tangolog.bakedware.jp/</id>
   <author>
     <name><![CDATA[bakedWare, Inc.]]></name>
@@ -12,5 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[英語辞書と単語帳がセットになった機能拡張をChromeウェブストアに公開しました]]></title>
+    <link href="http://tangolog.bakedware.jp/blog/2015/08/25/first-post/"/>
+    <updated>2015-08-25T20:54:37+09:00</updated>
+    <id>http://tangolog.bakedware.jp/blog/2015/08/25/first-post</id>
+    <content type="html"><![CDATA[<p>公開しました！（といっても先週ですが。。。）</p>
+
+<p>良いことなのかわかりませんが国内でもグローバルなSNSがメジャーとなって久しいですが、プラットフォームが事実上統一された事により
+一昔前より海外のニュース記事やコミュニティーにかなりアクセスしやすくなりました。</p>
+
+<p>個人的には仕事で必要なため技術系のニュース、ブログ、コミュニティーを普段よく目にしますが、
+一般的に言って海外のウェブを見るのは視野が広がりますし、第一に楽しいと思います。</p>
+
+<p>ただ、私の環境では大抵の場合は日本語で済んでしまい、習慣化していないので、やはり英語に接するのは一苦労です。
+昨今グローバル化などと叫ばれていますが、世の中の大半の方は私と同様、それほど生きた英語に接するチャンスがあるわけではないと思います。
+でも、普段から少しずつ、接しておきたい、勉強しておきたい。と思っている方は多いのではないでしょうか？
+そんな方に少しだけ助かるツールだと思っていますが、もちろん用途やお使いになる方を限定する訳ではありません。単語帳のみであれば言語を問いません。
+「こんな使い方もあるかも？」というご意見があればどうぞよろしくお願いします。</p>
+]]></content>
+  </entry>
   
 </feed>
