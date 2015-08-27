@@ -4,7 +4,7 @@
   <title><![CDATA[たんごログ]]></title>
   <link href="http://tangolog.bakedware.jp/atom.xml" rel="self"/>
   <link href="http://tangolog.bakedware.jp/"/>
-  <updated>2015-08-25T22:52:16+09:00</updated>
+  <updated>2015-08-27T16:13:29+09:00</updated>
   <id>http://tangolog.bakedware.jp/</id>
   <author>
     <name><![CDATA[bakedWare, Inc.]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[初TOEICと副産物のたんごログ]]></title>
+    <link href="http://tangolog.bakedware.jp/blog/2015/08/27/my-first-toeic/"/>
+    <updated>2015-08-27T14:35:47+09:00</updated>
+    <id>http://tangolog.bakedware.jp/blog/2015/08/27/my-first-toeic</id>
+    <content type="html"><![CDATA[<p>英語を勉強する方への支援ツールを作っていながらアレですが、実は私、TOEIC受けた事なかったんです（笑）
+何年も前から受けよう受けようと思っていたのですが「仕事が忙しい」を理由に避けてしまっていました。
+いや、本当に忙しかったんですが、まあ、言い訳ですよね。すみません。</p>
+
+<p>そんなこんなで？ようやく「今でしょ（古）」っていうか「やっとかよ！」という感じで先月（7月）に受験する事になったのですが、せっかくなので英語関連のソフトも作ってみたいなとその時思い立ったわけです。
+テストですが、初戦なのでどのくらい行けるか謎だったのですが、参考書幾つかやってみる感じだと「Bクラスに行けるかなぁ？」というレベル感で、
+私の周りは800点から900点超えが何人もいる環境（というかそのくらいの点じゃないと自慢にならないので高得点が普通になってしまうのですが、、）でしたので、
+Bクラスには行きたいなぁと思っていましたが、試験の結果が先日帰ってきたのですが、うーん。ダメでしたね。その先日とは、たんごログのプレリリース日で、なんというかリベンジ初日となりました。
+ただ「初だし、履歴書に書けるレベルであれば可。」とも思ってたので、まあそれはクリアしたのでホットしています。前日悪友に捕まって二日酔いだったし。（←典型的な言い訳）
+思いのほかリスニングは出来たのですが、リーディングが時間切れでボロボロでした。語彙を除けばじっくりやれば楽な問題が多いと思いますが、やっぱり速さが必要です。
+（今ネットで調べてみたら私の受けた7月のテストはDouble Passageは普段より難しめだったという意見がありますね。私は鉄則とされるDPから先に解き出したのですが、やっぱりちょっと実践は違うなぁとのっけから慄いてしまいました。）</p>
+
+<p>というわけで、初TOEICテストに臨む副産物で出来た、この「<a href="https://chrome.google.com/webstore/detail/%E3%81%9F%E3%82%93%E3%81%94%E3%83%AD%E3%82%B0/cppaobgnffcgbmlpigglgcncomppjibd?hl=ja">たんごログ</a>」を使って語彙力、長文読解力を強化して、半年後くらいに懲りずに2回目に挑戦してみたいと思います。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[英語辞書と単語帳がセットになった機能拡張をChromeウェブストアに公開しました]]></title>
