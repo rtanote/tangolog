@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[たんごログ]]></title>
-  <link href="http://tangolog.bakedware.jp/atom.xml" rel="self"/>
+  <title><![CDATA[Category: toeic | たんごログ]]></title>
+  <link href="http://tangolog.bakedware.jp/blog/categories/toeic/atom.xml" rel="self"/>
   <link href="http://tangolog.bakedware.jp/"/>
   <updated>2015-08-27T20:22:24+09:00</updated>
   <id>http://tangolog.bakedware.jp/</id>
@@ -31,27 +31,6 @@ Bクラスには行きたいなぁと思っていましたが、試験の結果�
 （今ネットで調べてみたら私の受けた7月のテストはDouble Passageは普段より難しめだったという意見がありますね。私は鉄則とされるDPから先に解き出したのですが、やっぱりちょっと実践は違うなぁとのっけから慄いてしまいました。）</p>
 
 <p>というわけで、初TOEICテストに臨む副産物で出来た、この「<a href="https://chrome.google.com/webstore/detail/%E3%81%9F%E3%82%93%E3%81%94%E3%83%AD%E3%82%B0/cppaobgnffcgbmlpigglgcncomppjibd?hl=ja">たんごログ</a>」を使って語彙力、長文読解力を強化して、半年後くらいに懲りずに2回目に挑戦してみたいと思います。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[英語辞書と単語帳がセットになった機能拡張をChromeウェブストアに公開しました]]></title>
-    <link href="http://tangolog.bakedware.jp/blog/2015/08/25/first-post/"/>
-    <updated>2015-08-25T20:54:37+09:00</updated>
-    <id>http://tangolog.bakedware.jp/blog/2015/08/25/first-post</id>
-    <content type="html"><![CDATA[<p>公開しました！（といっても先週ですが。。。）</p>
-
-<p>良いことなのかわかりませんが国内でもグローバルなSNSがメジャーとなって久しいですが、プラットフォームが事実上統一された事により
-一昔前より海外のニュース記事やコミュニティーにかなりアクセスしやすくなりました。</p>
-
-<p>個人的には仕事で必要なため技術系のニュース、ブログ、コミュニティーを普段よく目にしますが、
-一般的に言って海外のウェブを見るのは視野が広がりますし、第一に楽しいと思います。</p>
-
-<p>ただ、私の環境では大抵の場合は日本語で済んでしまい、習慣化していないので、やはり英語に接するのは一苦労です。
-昨今グローバル化などと叫ばれていますが、世の中の大半の方は私と同様、それほど生きた英語に接するチャンスがあるわけではないと思います。
-でも、普段から少しずつ、接しておきたい、勉強しておきたい。と思っている方は多いのではないでしょうか？
-そんな方に少しだけ助かるツールだと思っていますが、もちろん用途やお使いになる方を限定する訳ではありません。単語帳のみであれば言語を問いません。
-「こんな使い方もあるかも？」というご意見があればどうぞよろしくお願いします。</p>
 ]]></content>
   </entry>
   
