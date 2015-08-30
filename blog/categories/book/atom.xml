@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: book | たんごログ]]></title>
+  <link href="http://tangolog.bakedware.jp/blog/categories/book/atom.xml" rel="self"/>
+  <link href="http://tangolog.bakedware.jp/"/>
+  <updated>2015-08-30T15:40:11+09:00</updated>
+  <id>http://tangolog.bakedware.jp/</id>
+  <author>
+    <name><![CDATA[bakedWare, Inc.]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[おすすめ教材]]></title>
+    <link href="http://tangolog.bakedware.jp/blog/2015/08/30/goodreads/"/>
+    <updated>2015-08-30T12:07:38+09:00</updated>
+    <id>http://tangolog.bakedware.jp/blog/2015/08/30/goodreads</id>
+    <content type="html"><![CDATA[<p>社会人になってからの英語学習と言うと英会話スクールやリスニング教材が目につく気がしますが、私の場合は
+技術屋ですので海外の論文やドキュメントなどを読解する事が日常であって海外の英語をしゃべる方とコミュニケーションするのが
+日常ではありません。せいぜいAmazonで海外のモノを買った時に「商品が届かないよ〜」とクレームを出す（笑）とか、たまに海外の開発コミュニティーで書き込みしてみる、
+といった所です。なのでよくある受験英語批判というのはあまりピンと来ず、「受験英語ありがとう。どうせなら、もっと勉強しておけばよかったかな！」
+というのが率直な感想です。</p>
+
+<p>学生の頃は気張って森一郎先生の「試験に出る」シリーズを使って勉強していましたが、英語以前に森先生の古式ゆかしい日本語にギャップを覚え、当時はちんぷんかんぷんで逆に苦手教科になってしまいましたね。
+そんな私が社会人になってから出会ったのが、伊藤和夫先生の「ビジュアル英文解釈」でした。こちらは平易な日本語で書かれています。それまではどうしても右から左に日本語に変換しながら読む癖が抜けなかったのですが、
+これを読んだら普通に左から右に読むことができるようになりました。シレッと書きましたがこれは一大事です。ああ、もっと早く出会っていれば（笑）。社会人向けの英語教材はたくさん売っていますけど文法に関しては大学受験用の教材を使ってもプライドが許せば別にいいんじゃないかな、と思います。
+ちなみに私はアラフォーですが試験に出るシリーズも今の歳になってから読み返すと、古式ゆかしい日本語でも
+そんなに抵抗なく読めますし、内容が濃いですね。名著であると言われていたのも分かる気がします。</p>
+
+<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?t=reed69-22&o=9&p=8&l=as1&asins=4796120017&ref=qf_sp_asin_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
